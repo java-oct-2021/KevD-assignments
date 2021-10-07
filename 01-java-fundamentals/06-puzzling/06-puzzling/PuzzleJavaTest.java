@@ -8,7 +8,7 @@ public class PuzzleJavaTest {
         ArrayList<Integer> randomRolls = gen.getTenRolls();
         System.out.println(randomRolls);
 
-        System.out.println(gen.getRandomLetter());
+        System.out.println("Random Letter is:" + " " + gen.getRandomLetter());
         System.out.println(gen.generatePassword());
         System.out.println(gen.getPasswords(6));
     }
